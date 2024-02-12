@@ -33,6 +33,10 @@
     text-decoration: none;
 }
 
+.menuBtn {
+    display: none;
+}
+
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
@@ -60,7 +64,6 @@
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        /* background: var(--color-dark); */
         background: linear-gradient(
             0deg,
             rgba(115, 63, 215, 0.2) 0%,
